@@ -10,7 +10,6 @@ public:
       if(n==0)
        return 0;
     vector<int> ans;
-    //Aditya Seth.
     ans.push_back(envelopes[0][1]);
     for(int i=1; i<n; i++){
         if(envelopes[i][1]>ans.back())
