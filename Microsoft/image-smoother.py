@@ -4,7 +4,6 @@ class Solution:
         dy = [-1,0,1,-1,0,1,-1,0,1]
         m = int(len(img))
         n = int(len(img[0]))
-        # Aditya Seth.
         ans = [[0 for i in range(n)] for j in range(m)]
         for i in range(m):
             for j in range(n):
