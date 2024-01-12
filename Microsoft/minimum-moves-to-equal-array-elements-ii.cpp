@@ -5,7 +5,6 @@ public:
        sort(nums.begin(),nums.end());
        int avg= nums[n/2];
        int ans=0;
-       //Aditya Seth.
        for(auto i: nums){
            ans+= abs(avg-i);
        }
