@@ -1,7 +1,6 @@
 class Solution:
     def __init__(self, rects: List[List[int]]):
         self.rects = rects
-        #Aditya Seth.
     def pick(self) -> List[int]:
         total_area = 0
         chosen_p = [0,0]
