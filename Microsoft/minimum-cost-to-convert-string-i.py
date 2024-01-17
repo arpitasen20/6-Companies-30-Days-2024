@@ -4,7 +4,6 @@ class Solution:
         for i in range(len(original)):
             if original[i] not in adjList:
                 adjList[original[i]] = {}
-                #Aditya Seth.
             if changed[i] in adjList[original[i]]:
                 if cost[i] < adjList[original[i]][changed[i]]:
                     adjList[original[i]][changed[i]] = cost[i]
